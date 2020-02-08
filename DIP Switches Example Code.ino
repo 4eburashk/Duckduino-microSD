@@ -128,7 +128,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_LEFT_ALT);
   }
-    else if (b.equals("GUI"))
+    else if (b.equals("GUI")||b.equals("WIN"))
   {
     Keyboard.press(KEY_LEFT_GUI);
   }
@@ -148,7 +148,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_RIGHT_ARROW);
   }
-    else if (b.equals("DELETE"))
+    else if (b.equals("DELETE")||b.equals("DEL"))
   {
     Keyboard.press(KEY_DELETE);
   }
