@@ -128,7 +128,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_LEFT_ALT);
   }
-    else if (b.equals("GUI")||b.equals("WIN"))
+    else if (b.equals("GUI") || b.equals("WIN"))
   {
     Keyboard.press(KEY_LEFT_GUI);
   }
@@ -148,7 +148,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_RIGHT_ARROW);
   }
-    else if (b.equals("DELETE")||b.equals("DEL"))
+    else if (b.equals("DELETE") || b.equals("DEL"))
   {
     Keyboard.press(KEY_DELETE);
   }
@@ -168,7 +168,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_ESC);
   }
-    else if (b.equals("INSERT"))
+    else if (b.equals("INSERT") || b.equals("INS"))
   {
     Keyboard.press(KEY_INSERT);
   }
@@ -180,7 +180,7 @@ void Press(String b)
   {
     Keyboard.press(KEY_END);
   }
-    else if (b.equals("CAPSLOCK"))
+    else if (b.equals("CAPSLOCK") || b.equals("CAPS"))
   {
     Keyboard.press(KEY_CAPS_LOCK);
   }
